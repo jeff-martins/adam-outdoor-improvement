@@ -2,11 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Adam Outdoor Improvement</title>
 
+    <meta
+        name="description"
+        content="Professional pergolas, decking, patios and outdoor improvements across Ireland. Quality craftsmanship and custom outdoor living solutions."
+    >
+
+    <meta property="og:title" content="Adam Outdoor Improvement">
+
+    <meta
+        property="og:description"
+        content="Professional pergolas, decking, patios and outdoor improvements across Ireland."
+    >
+
+    <meta
+        property="og:image"
+        content="assets/images/gallery1.jpg"
+    >
+
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+
     <script src="js/script.js" defer></script>
+
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
 </head>
 
 <body>
@@ -41,14 +68,15 @@
 
             <div class="hero-content">
 
-                <h2>Custom Pergolas & Outdoor Improvements</h2>
+                <h1>Custom Pergolas <br>
+                    & Outdoor Improvements</h1>
 
                 <p>
                     Professional outdoor construction services in Ireland.
                 </p>
 
-                <a href="#" class="hero-btn">
-                    Request a Quote
+                <a href="#contact" class="hero-btn">
+                Request a Quote
                 </a>
 
             </div>
@@ -100,18 +128,15 @@
                     <h2>About Us</h2>
 
                     <p>
-                        Adam Outdoor Improvement specializes in premium pergolas,
-                        decking, patios, and outdoor living spaces across Ireland.
+                        Adam Outdoor Improvement is a trusted outdoor construction company based in Ireland, specializing in premium pergolas, decking, patios, and custom outdoor living spaces.
                     </p>
 
                     <p>
-                        We combine quality craftsmanship, modern design, and durable
-                        materials to transform outdoor areas into elegant and functional spaces.
+                        With a commitment to quality craftsmanship and attention to detail, we create outdoor environments that combine beauty, functionality, and durability.
                     </p>
 
                     <p>
-                        Our mission is to deliver professional outdoor solutions
-                        with attention to detail and customer satisfaction.
+                       Our goal is to help homeowners transform their gardens and outdoor areas into comfortable spaces for relaxation, entertainment, and everyday living.
                     </p>
 
                 </div>
@@ -147,6 +172,7 @@
 </section>
 
     <!-- CONTACT -->
+
 <section id="contact">
 
     <h2>Contact Us</h2>
@@ -162,31 +188,53 @@
                 decking, patios, and outdoor living solutions across Ireland.
             </p>
 
-            <p><strong>Phone:</strong> +353 85 123 4567</p>
+            <p><strong>Phone:</strong> +353 085 2222 026</p>
 
-            <p><strong>Email:</strong> info@adamoutdoor.ie</p>
+            <p><strong>Email:</strong> adamoutdoorimprovement@mail.ru</p>
 
-            <p><strong>Location:</strong> Dublin, Ireland</p>
+            <p><strong>Location:</strong> Naas, Co. Kildare, Ireland</p>
 
         </div>
 
-        <form class="contact-form">
+        <form class="contact-form" id="contact-form">
 
-            <input type="text" placeholder="Your Name">
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+            >
 
-            <input type="email" placeholder="Your Email">
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+            >
 
-            <textarea placeholder="Your Message"></textarea>
+            <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                required
+            ></textarea>
 
             <button type="submit">
                 Send Message
             </button>
+
+            <div id="form-message"></div>
 
         </form>
 
     </div>
 
 </section>
+
+
+</main>
 
 <!-- FOOTER -->
 
@@ -221,32 +269,51 @@
 
         </div>
 
-        <div class="footer-contact">
+       <div class="footer-social">
+    <h3>Follow Us</h3>
 
-            <h3>Contact</h3>
+    <p>Follow our latest projects and outdoor transformations.</p>
 
-            <p>+353 085 2222 026</p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/seu_perfil" target="_blank">
+    <img src="assets/icons/instagram.png" alt="Instagram">
+    </a>
 
-            <p>adamoutdoorimprovement@mail.ru</p>
-
-            <p>Naas Co. Kildare, Ireland</p>
-
-        </div>
-
+    <a href="https://www.facebook.com/sua_pagina" target="_blank">
+    <img src="assets/icons/facebook.png" alt="Facebook">
+    </a>
+    </div>
     </div>
 
-    <div class="footer-bottom">
+       <div class="footer-contact">
 
-        <p>
-            © 2026 Adam Outdoor Improvement.
-            All Rights Reserved.
-        </p>
+    <h3>Contact</h3>
 
-    </div>
+    <p>
+        <a href="tel:+353852222026">
+            +353 085 2222 026
+        </a>
+    </p>
+
+    <p>
+        <a href="mailto:adamoutdoorimprovement@mail.ru">
+            adamoutdoorimprovement@mail.ru
+        </a>
+    </p>
+
+    <p>
+        <a
+            href="https://maps.google.com/?q=Naas,+Co.+Kildare,+Ireland"
+            target="_blank"
+        >
+            Naas Co. Kildare, Ireland
+        </a>
+    </p>
+
+</div>
 
 </footer>
 
-    </main>
 
     <a 
     href="https://wa.me/353852222026"
@@ -255,7 +322,7 @@
 >
 
     <img 
-        src="assets/images/whatsapp.png.png" 
+        src="assets/images/whatsapp.png"
         alt="WhatsApp"
     >
 
