@@ -15,7 +15,7 @@ Professional website developed for Adam Outdoor Improvement.
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScriptgit
 - EmailJS
 
 ## Developer
